@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.container {
+    display: flex;
+    /* flex-basis: 60%; */
+    width: 60%;
+    margin: 0 auto;
+}
+nav  {
+    margin-top: -2rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+nav ul li{
+    margin: 0 0 1rem 0;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0.4rem 0.4rem;
+}
+nav ul li a:hover {
+    text-decoration: line-through;
+}
+.article-container {
+    margin: 6rem 0 0 3rem;
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+}
+.article {
+    padding: 1.5rem 0 1rem 1.5rem;
+    border-top: 1px solid black;
+    border-left: 3px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    font-size: 6rem;
+}
+h1 {
+    margin: 0;
+    padding:0;
+}
+p {
+    font-size: 1rem;
+}
+.marker {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+}
+.tags {
+    list-style-type: none;
+    margin: 2rem 0 0 0;
+    padding: 0.4rem 0.4rem 0 0.4rem;
+}
+.tags li {
+    margin-bottom: 0.4rem;
+    display: inline-flex;
+}
+.tags a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.4rem 0.4rem;
+}
+.tags a:hover {
+    text-decoration: line-through;
+}
